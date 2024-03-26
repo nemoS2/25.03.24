@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <button onclick="moverParaDireita()">mover para a direita</button>
+
+    <button onclick="moverParaEquerda()">mover para a esquerda</button>
+
+    <button onclick="moverParaCima()">mover para cima</button>
+
+    <button onclick="moverParaBaixo()">mover para baixo</button>
+
+    <button onclick="deslizarParaDireita()">deslizar para direita</button>
+    
+    <button onclick="deslizarParaEquerda()">deslizar para esquerda</button>
+
+    <button onclick="aponteParaDireção()">aponte para a direção</button>
+ 
+    <button onclick="irParaDireção()">ir para a direção</button>
+
+    <button onclick="irParaPosiçãoAleatório()">ir para posição aleatória</button>
+
+    <button onclick="">seguir o mouse</button>
+
+    <button onclick="">voltar ao início</button>
+
+    <button onclick="">"dizer" olá por "n" segundo(s)</button>
+
+    <button onclick="">trocar o avatar</button>
+
+    <button onclick="">"resetar" o avatar</button>
+
+    <button onclick="">trocar o cenário</button>
+
+    <button onclick="">"resetar" o cenário</button>
+
+    <button onclick="">diminuir o avatar</button>
+
+    <button onclick="">aumentar o avatar</button>
+
+    <button onclick="">esconder o avatar</button>
+
+    <button onclick="">mostrar o avatar</button>
+
+    <button onclick="">tocar o som</button>
+
+    <button onclick="">parar o som</button>
+
+    <button onclick="">aumentar volume</button>
+
+    <button onclick="">diminuir volume</button>
+
+    <script src="./scratchbotao.js"></script>
+    <img src="smith.png" id="imgAvatar">
+    <audio id="som">
+        <source src="de-copao-na-mao-estourado.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
